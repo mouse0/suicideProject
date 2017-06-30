@@ -1,0 +1,16 @@
+Package: suicideProject
+Title: Tools for Lingustic Analysis to Find Endophenotypes
+Version: 0.0.0.9000
+Authors@R: person("Corey", "O\'Connor", email = "corey.oconnor10@gmail.com", role = c("aut", "cre"))
+Description: This package includes tools for lingustic analysis, such as type/token ratios and part of speach tagging as well as tools for cleaning an XML corpus used, and a script for calculating the simpleMaths frequency, smoothed using LaPlacian smoothing. 
+Depends: R (>= 3.3.3)
+License: The Open Software License 3.0 (OSL-3.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
+Imports:
+    XML,
+    tidyverse,
+    tokenizers,
+    stringr,
+    phrasemachine
